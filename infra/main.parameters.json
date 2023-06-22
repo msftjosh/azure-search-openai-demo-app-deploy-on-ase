@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "ResourceGroupName": {
+      "value": "${AZURE_RESOURCE_GROUP}"
+    },
+    "appResourceGroupName": {
+      "value": "${AZURE_APP_RESOURCE_GROUP}"
+    },
+    "appServiceEnvironmentName": {
+      "value": "${AZURE_APP_SERVICE_ENVIRONMENT_NAME}"
+    },
+    "appServicePlanName": {
+      "value": "${AZURE_APP_SERVICE_PLAN_NAME}"
+    },
+    "appServiceName": {
+      "value": "${AZURE_APP_SERVICE_NAME}"
+    },
+    "openAiServiceName": {
+      "value": "${AZURE_OPENAI_SERVICE}"
+    },
+    "searchServiceName": {
+      "value": "${AZURE_SEARCH_SERVICE}"
+    },
+    "storageAccountName": {
+      "value": "${AZURE_STORAGE_ACCOUNT}"
+    },
+    "chatGptDeploymentName": {
+      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT}"
+    },
+    "gptDeploymentName": {
+      "value": "${AZURE_OPENAI_GPT_DEPLOYMENT}"
+    }
+  }
+}
